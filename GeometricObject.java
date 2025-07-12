@@ -2,7 +2,7 @@ public abstract class GeometricObject{
     protected String color;
     
     protected GeometricObject(){
-        this(null);
+        this("");
     }
     
     protected GeometricObject(String color){

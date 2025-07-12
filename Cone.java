@@ -2,7 +2,7 @@ public class Cone extends Circle{
     private double slantHeight;
     
     public Cone(){
-        this(null, 0.0, 0.0);
+        this("", 0.0, 0.0);
     }
     
     public Cone(String color, double radius, double slantHeight){
